@@ -1,58 +1,58 @@
+h1 {
+    color: #C5445C;
+    font-family: "ms sans serif";
+    font-size: 30px
+
+}
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans";
+    scroll-behavior: smooth;
 }
 
 nav {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  background: lightgray;
-  padding: 25px;
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 25px;
+    background:#CA5369;
 }
 
-main {
-  padding-top: 55px;
-  width: 1000px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-main h2 {
-  margin-top: 10px;
+ul{
+    display:flex;
+    list-style:none;
+    width: 25%;
+    justify-content: space-between;
 }
 
 footer {
-  background: lightgray;
-  padding: 25px;
-  text-align: center;
-  width: 100%;
-  bottom: 0;
-  margin-top: 25px;
+    box-shadow: 0 50vh 0 50vh #CA5369;
 }
 
-.profile-picture {
-  border-radius: 100%;
-
-  transition: all ease-in-out 300ms;
+main,footer {
+    width:1200px;
+    margin:auto;
+    text-align:center;
 }
 
-.profile-item {
-  margin-top: 50px;
-  margin-bottom: 50px;
+h3 {
+    color: white;
+    font-family: "Arial";
+    font-size: 20px
 }
 
-.initials {
-  color: blueviolet;
+footer {
+    font-size: 30px;
 }
 
-img {
-  margin-top: 10px;
+#prev:hover,
+#next:hover {
+    cursor: pointer;
+}
+
+button {
+    font-size: 100px;
 }
